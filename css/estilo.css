@@ -12,3 +12,20 @@
 	background: blue;
 	cursor: pointer;
 }
+
+.cajas{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: green;
+	margin: 20px;
+	cursor: pointer;
+}
+
+input{
+	padding: 10px;
+}
+
+button{
+	padding: 10px;
+}
