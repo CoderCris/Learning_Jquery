@@ -11,5 +11,3 @@ function cambiarColor(){
 $("#caja").click(function(){
 	$("#caja").css({"background":"red"});
 });
-
-cambiarColor();
