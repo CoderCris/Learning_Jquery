@@ -13,6 +13,7 @@
 	cursor: pointer;
 }
 
+<<<<<<< HEAD
 .cajas{
 	position: relative;
 	width: 100px;
@@ -22,10 +23,24 @@
 	cursor: pointer;
 }
 
+=======
+>>>>>>> origin/master
 input{
 	padding: 10px;
 }
 
 button{
 	padding: 10px;
+<<<<<<< HEAD
+=======
+}
+
+#caja2{
+
+	position: relative;
+	width: 50px;
+	height: 50px;
+	background: yellow;
+	cursor: pointer;
+>>>>>>> origin/master
 }
