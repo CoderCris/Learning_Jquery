@@ -1,3 +1,3 @@
-$("#agregarHTML").click(function(){
-	$(".contenedor").html('	<div class="texto">adios</div>')
-})
+$("#agregar").click(function(){
+	$("#contenedor").html('<div class="texto">adios</div>');
+});
