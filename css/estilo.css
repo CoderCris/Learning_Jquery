@@ -45,3 +45,13 @@ button{
 	padding: 30px;
 	background: green;
 }
+
+#c3{
+	padding: 20px;
+	margin: 50px;
+	text-align: center;
+	height: auto;
+	background: chocolate;
+	color: white;
+	display: none;
+}
