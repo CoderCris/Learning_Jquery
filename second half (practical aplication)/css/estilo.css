@@ -1,0 +1,405 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+
+body{
+	background: url(../img/back00.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center top;
+}
+
+#contenedor{
+	position: relative;
+	width:1000px;
+	height: auto;
+	margin: auto;
+}
+
+/***********************************************
+CARGADOR
+***********************************************/
+
+
+/***********************************************
+BLOQUE 00
+***********************************************/
+section#bloque0{
+	position: absolute;
+	z-index: 1;
+	margin: 0 auto;
+	width:100%;
+	height:70px;
+	background: rgba(0,0,0,.5);
+}
+
+nav#botonera{
+	position:relative;
+	top: 35px;
+	margin:auto;
+	width: 800px;
+	height:20px;
+}
+
+nav#botonera ul li{
+	float:left;
+	text-align: center;
+	width: 158px;
+	line-height: 20px;
+	color:white;
+	border-right: 1px solid #999;
+}
+
+nav#botonera ul li:last-child{
+	border-right:0;
+}
+
+nav#botonera ul li a{
+	color:white;
+}
+
+nav#botonera ul li a:hover{
+	text-decoration: underline;
+}
+
+
+#logo{
+	display: block;
+	position: relative;
+	margin: auto;
+	top: 10px;
+	width: 12%;
+	z-index:1;
+}
+
+/***********************************************
+BLOQUE 01
+***********************************************/
+
+section#bloque1{
+	position: relative;
+	margin: 0px auto;
+	width:100%;
+	height:650px;
+	background: url(../img/back01.jpg);
+	background-size: cover; 
+}
+
+#totti{
+	position: absolute;
+	bottom:40px;
+	right: 27%;
+	width: 23%;
+}
+
+#james{
+	position: absolute;
+	bottom:10px;
+	left: 28%;
+	width: 20%;
+}
+
+#ozil{
+	position: absolute;
+	bottom:0px;
+	left: 34%;
+	width: 18%;
+}
+
+#iniesta{
+	position: absolute;
+	bottom:0px;
+	left: 20%;
+	width: 20%;
+}
+
+#hazard{
+	position: absolute;
+	bottom:0px;
+	left: 5%;
+	width: 20%;
+}
+
+#suarez{
+	position: absolute;
+	bottom:0px;
+	right: 5%;
+	width: 18%;
+}
+
+#messi{
+	position: absolute;
+	bottom:0px;
+	right: 15%;
+	width: 18%;
+}
+
+#zlatan{
+	position: absolute;
+	bottom:30px;
+	right: 25%;
+	width: 18%;
+}
+
+/***********************************************
+BLOQUE 02
+***********************************************/
+
+section#bloque2{
+	position: relative;
+	margin: 0px auto;
+	width:100%;
+	top:-180px;
+	height:650px;
+	background: url(../img/back02.png);
+	background-size: cover;
+}
+
+
+#cristiano{
+	position: absolute;
+	top: -250px;
+	left: 40%;
+	width: 22%;
+}
+
+nav#botonesGrupo{
+	position: relative;
+	margin: auto;
+	top: 230px;
+	width: 800px;
+	height: 40px;
+	background: linear-gradient(#004e8a, #001);
+	border-radius:14px;
+	border:2px solid white; 
+}
+
+nav#botonesGrupo ul li{
+	float: left;
+	width: 99px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 13px;
+	border-right:1px solid white;
+	cursor: pointer;
+}
+
+nav#botonesGrupo ul li:hover{
+	background:rgba(0,0,5,.5);
+}
+
+nav#botonesGrupo ul li:last-child{
+	border-right:0;
+}
+
+#grupos{
+	position: relative;
+	margin: auto;
+	top:260px;
+	width: 770px;
+	height: 400px;
+	background: rgba(0,0,0,1);
+	border-radius:20px;
+	border:15px solid #004e8a;
+	overflow: hidden;
+}
+
+#grupos img{
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 78px;
+	width: 80%;
+}
+
+/***********************************************
+BLOQUE 03
+***********************************************/
+
+section#bloque3{
+	position: relative;
+	margin: 0px auto;
+	top:-150px;
+	width:100%;
+	height:550px;
+	background:rgba(0,0,0,0);
+}
+
+#estadios{
+	position: relative;
+	margin: auto;
+	top: 100px;
+	width: 900px;
+	height: 450px;
+	border:5px solid white;
+	border-radius: 10px;
+}
+
+#estadios img{
+	width: 100%;
+	position: absolute;
+	border-radius: 10px;
+}
+
+/***********************************************
+BLOQUE 04
+***********************************************/
+
+section#bloque4{
+	position: relative;
+	margin: 0px auto;
+	top:-100px;
+	width:900px;
+	height:650px;
+	background:rgba(0,0,0,0);
+}
+
+#galeria{
+	position: relative;
+	margin: auto;
+	width: 900px;
+}
+
+#galeria li{
+	float: left;
+	width: 187px;
+	height: 187px;
+	margin: 15px;
+	overflow: hidden;
+	border:4px solid white;
+	cursor: pointer;
+}
+
+#galeria li:hover{
+
+	opacity: 0.6;
+}
+
+#galeria li img{
+	width:180%;
+}
+
+/***********************************************
+BLOQUE 05
+***********************************************/
+
+section#bloque5{
+	position: relative;
+	margin: -300px auto;
+	top:50px;
+	width:100%;
+	height:750px;
+	background: url(../img/back03.png);
+	background-size: cover; 
+}
+
+input[type="search"]{
+	position:relative;
+	padding:10px;
+	width:300px;
+	border-radius: 10px;
+	display: block;
+	margin: auto;
+	top:-100px;
+}
+
+.dataTables_info, .paginate_button, .dataTables_length, .dataTables_filter{
+	display: none;
+}
+
+#calendario{
+	position: relative;
+	margin: auto;
+	width: 800px;
+	height:330px;
+	color:white;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	top:-50px;
+}
+
+#calendario::-webkit-scrollbar{ 
+	background:rgba(0,0,0,0);  
+}
+
+#calendario::-webkit-scrollbar-button{
+ 	background:rgba(0,50,100,.5);  
+}
+
+#calendario::-webkit-scrollbar-thumb{ 
+	background:rgba(0,50,100,.5); 
+}
+
+
+table{
+	position: relative;
+	margin: auto;
+	width: 780px;
+	color:white;
+}
+
+thead tr td{
+	text-align: center;
+	padding:5px;
+	border:1px solid white;
+	background: rgba(0,0,15,1);
+}
+
+tbody tr td{
+	text-align: center;
+	padding:5px;
+	border:1px solid white;
+}
+
+section#bloque5 button{
+	position: relative;
+	margin: auto;
+	display: block;
+	top:0px;
+	padding:10px 20px;
+	width: 300px;
+	border: 2px solid rgba(255,255,255,.5);
+	border-radius: 5px;
+	background:rgba(0,50,100,1);
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+section#bloque5 button:hover{
+	background:rgba(0,100,200,1);
+}
+
+section#bloque5 form{
+	display: block;
+}
+
+input[type="email"], input[type="submit"] {
+	display:block;
+	position: relative;
+	margin: 5px auto;
+	top:0px;
+	padding:10px 20px;
+	width: 300px;
+	border: 2px solid rgba(255,255,255,.5);
+	border-radius: 5px;
+	background:rgba(0,50,100,1);
+	color: white;
+	text-transform: uppercase;
+}
+
+section#bloque5 input[type="email"]{
+	background: white;
+	border: 2px solid rgba(0,50,100,.5);
+	width: 255px;
+	color: #333;
+	text-transform: none;
+}
+
+
